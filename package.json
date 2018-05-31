@@ -1,0 +1,22 @@
+{
+  "name": "riot-casperjs",
+  "version": "1.0.0",
+  "description": "Testing tags of riot on capserjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "riot tags/greeting.tag",
+    "pretest": "npm run build",
+    "test": "casperjs test test.js"
+  },
+  "keywords": [],
+  "author": "Karak <karak97@gmail.com> (https://github.com/karak)",
+  "license": "ISC",
+  "devDependencies": {
+    "casperjs": "^1.1.4",
+    "phantomjs2": "^2.2.0",
+    "riot-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "riot": "^3.10.1"
+  }
+}
